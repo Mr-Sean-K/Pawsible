@@ -1,0 +1,138 @@
+
+h1 {
+    font-family: 'Playwrite IT Moderna', serif;
+    font-size: 50px;
+    color: #d2bba0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playwrite IT Moderna', serif;
+    font-size: 30px;
+    color: #d2bba0;
+    text-align: center;
+}
+
+label {
+    font-family: 'Playwrite IT Moderna', serif;
+    font-size: 20px;
+    color: #d2bba0;
+    text-align: center;
+}
+
+input {
+    font-family: 'Playwrite IT Moderna', serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ageBox {
+    max-width: 50px;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #d2bba0;
+    padding: 30px;
+    text-align: center;
+}
+
+#title {
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5a3e2b;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+footer{
+    background-color: #d2bba0;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: "Playwrite IT Moderna", serif;
+    font-style: normal;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #5a3e2b;
+    padding: 50px;
+}
+
+p {
+    font-size: 30px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#5a3e2b;
+}
+
+/* nav bar */
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.navbar ul {
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #8E6D5B;
+    text-decoration: underline;
+}

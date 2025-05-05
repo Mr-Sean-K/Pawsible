@@ -1,0 +1,242 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #d2bba0;
+    padding: 30px;
+    text-align: center;
+}
+
+#title {
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5a3e2b;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+#pawsible-title{
+    color:#5a3e2b;
+    text-decoration: none;
+}
+
+#title a {
+    text-decoration: none;
+}
+
+#description {
+    font-size: 30px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #5a3e2b;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pet-card, .list-of-pets {
+    background: #f9f3ee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 350px;
+    height: auto;
+    display: flex;
+    color: #5a3e2b;
+    flex-direction: column;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left; 
+    justify-content: space-between; 
+    overflow: hidden; 
+}
+
+.pet-card img, .list-of-pets img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.pet-info {
+    flex-direction: column;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #5a3e2b;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 5px; 
+}
+
+.pet-info p {
+    margin: 5px ;
+}
+
+.pet-info-headings {
+    color: #5a3e2b;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pet-details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f8e9;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.pet-details p {
+    margin: 5px ;
+}
+
+button {
+    background-color: #8e6d5b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #5a3e2b;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pet-card {
+        width: 90%;
+    }
+}
+
+footer {
+    background-color: #d2bba0;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* nav bar */
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #8E6D5B;
+}
+
+/* For the pet care guide */
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.article-box {
+    background-color: #D2BBA0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+}
+
+.article-title {
+    background-color: #9F7E69;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+}
+
+.article-content {
+    background-color: #F1F8E9;
+    color: #555;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 0 0 8px 8px;
+}

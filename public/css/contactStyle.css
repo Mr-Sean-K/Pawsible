@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d2bba0;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+/* nav bar */
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.navbar ul {
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #8E6D5B;
+    text-decoration: underline;
+}
+#title {
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5a3e2b;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+#description {
+    font-size: 30px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#5a3e2b;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 100%;
+}
+
+form {
+    background: #f9f3ee;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    color: #5a3e2b;
+    text-align: left;
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 480px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #c9a882;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+form textarea {
+    height: 100px
+}
+
+button {
+    background-color: #6b4f37;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 508px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #5a3e2b;
+}
+
+footer{
+    background-color: #d2bba0;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 150px;
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}

@@ -1,0 +1,149 @@
+header {
+    background-color: #d2bba0;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+#title {
+    font-family: "Playwrite IT Moderna", serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5a3e2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-header{
+  background-color: #d2bba0;
+  padding: 5px;
+  text-align: center;
+  display: block;
+}
+
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #d2bba0;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 23px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#5a3e2b;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-position: inside;
+    font-size: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#5a3e2b;
+}
+
+a {
+    color: #d2bba0;
+    text-decoration: none;
+}
+
+
+/* most adopted pet images */
+.mostAdoptedPet-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .mostAdoptedPet-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+  }
+
+  /* headings */
+
+  .index-headings{
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #5a3e2b;
+  }
+
+  /* paragraph background boxes */
+
+  .info-background{
+    background: #f9f3ee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 550px;
+    height: 650px;
+    margin: 0 auto;
+    justify-content: center;
+    color: #5a3e2b;
+  }
+
+
+  .information-flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .information-flex-box img{
+    border-radius: 20px;
+  }
+
+  /* sponsor form background*/
+  #form-background{
+    background: #f9f3ee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 530px;
+    height: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    color: #5a3e2b;
+  }
+
+  /* landscape image on the Sponsor page */
+  #bannerDog img{
+    object-fit: cover; 
+}
+
+/* buttons */
+.button {
+  background-color: #5a3e2b; 
+  color: white; 
+  border-color:#5a3e2b;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #d2bba0;
+  color: #5a3e2b; 
+}
+
