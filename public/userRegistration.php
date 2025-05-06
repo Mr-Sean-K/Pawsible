@@ -4,6 +4,7 @@ require_once 'CRUD/create.php';
 require_once 'src/common.php';
 require_once 'classes/User.php';
 
+//check if form has been submitted through post
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = escape($_POST["username"]);
     $email = escape($_POST["email"]);
@@ -13,19 +14,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // no input in form post for first name, surname, phone number, and address so they just get set to empty string :(
         $user = new User($username, '', '', $email, $password, '', '');
 
+        //data to insert into database
         $data = [
             'username' => $user->getUsername(),
             'firstName' => $user->getFirstName(),
-            'surname' => $user->getSurname(),
+            'surname' => $user->getSurname(), //empty
             'email' => $user->getEmail(),
             'password' => password_hash($user->getPassword(), PASSWORD_DEFAULT),
             'phoneNumber' => $user->getPhoneNumber(),
             'address' => $user->getAddress(),
         ];
 
-        // Insert user into the users table
+        // Insert new user into the users table
         $createdUser = create('users', $data);
 
+        //redirected login page when registration is successful
         if ($createdUser) {
             header("Location: userLogin.php");
             exit;
@@ -69,6 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
               <a href="userLogin.php">  <button type="submit">Register</button></a>
             </form>
+          // checks if message has been set or null
             <?php
             if (isset($message)) {
                 echo $message;
